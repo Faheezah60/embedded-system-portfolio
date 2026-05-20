@@ -82,5 +82,5 @@ https://www.tinkercad.com/things/cYIsqlVVaIB-arduino-led-light-blink-demo
 - Basic circuit simulaation
 
 ## NOTE 
-This is my first simple embedded system simulation project. I will be improving and building more complex project as i countinue learning.
+This is my first simple embedded system simulation project. I will be improving and building more complex project as i continue learning.
 
