@@ -27,14 +27,22 @@ This switching continues repeatedly, creating an alternating blinking pattern be
 
 ## Code
 // C++ code
+
 // Define the pins for easier reading
+
 int ledLeft = 12;
+
 int ledRight = 4;
+
 //
+
 void setup()
 {
+
   //Set both pins as OUTPUT
+  
   pinMode(ledLeft, OUTPUT);
+  
   pinMode(ledRight, OUTPUT);
         
     
@@ -42,16 +50,25 @@ void setup()
 
 void loop()
 {
+
 // Turn the left LED on and right LED off
+
   digitalWrite(ledLeft, HIGH);
+  
   // Wait for 1000 millisecond(s)
+  
   digitalWrite(ledRight, LOW);
+  
   delay(1000);
+  
   // Wait for 1000 millisecond(s)
   
 // Turn the left LED off and right LED on
+
   digitalWrite(ledLeft, LOW);
+  
   digitalWrite(ledRight, HIGH);
+  
   delay(1000);
 }
   
